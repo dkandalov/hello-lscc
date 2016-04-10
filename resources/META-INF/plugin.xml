@@ -1,0 +1,22 @@
+<idea-plugin version="2">
+  <id>LSCC-plugin</id>
+  <name>Hello</name>
+  <version>1.0</version>
+  <vendor email="support@yourcompany.com" url="http://www.yourcompany.com">YourCompany</vendor>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="141.0"/>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <action
+            class="lscc.HelloAction"
+            id="LSCCAction"
+            text="LSCCAction"
+    />
+  </actions>
+
+</idea-plugin>
